@@ -1,0 +1,18 @@
+{
+  "name": "mcp-mongodb",
+  "version": "1.0.0",
+  "description": "MongoDB MCP Server with IP whitelist authentication and dynamic URI",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:stdio": "MODE=stdio node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mongodb": "^6.13.0",
+    "zod": "^3.23.8"
+  }
+}
